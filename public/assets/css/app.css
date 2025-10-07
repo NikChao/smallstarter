@@ -1,0 +1,49 @@
+@font-face {
+  font-family: "Comic Mono";
+  src: url("/assets/fonts/ComicMonoFont.ttf")
+}
+
+:root {
+  --padding-xs: 4px;
+  --padding-sm: 8px;
+  --padding-md: 16px;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a,
+button {
+  font-family: Comic Mono;
+}
+
+.page {
+  padding: var(--padding-md)
+}
+
+.container {
+  padding: 16px 0;
+}
